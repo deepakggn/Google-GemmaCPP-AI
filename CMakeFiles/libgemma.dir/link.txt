@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libgemma.a CMakeFiles/libgemma.dir/gemma.cc.o CMakeFiles/libgemma.dir/compression/blob_store.cc.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libgemma.a

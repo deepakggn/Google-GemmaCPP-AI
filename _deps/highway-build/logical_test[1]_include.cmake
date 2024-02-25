@@ -1,0 +1,5 @@
+if(EXISTS "/Users/account/Desktop/Code/ai/gemmacpp/gemma.cpp/_deps/highway-build/logical_test[1]_tests.cmake")
+  include("/Users/account/Desktop/Code/ai/gemmacpp/gemma.cpp/_deps/highway-build/logical_test[1]_tests.cmake")
+else()
+  add_test(logical_test_NOT_BUILT logical_test_NOT_BUILT)
+endif()

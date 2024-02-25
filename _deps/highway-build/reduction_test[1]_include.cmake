@@ -1,0 +1,5 @@
+if(EXISTS "/Users/account/Desktop/Code/ai/gemmacpp/gemma.cpp/_deps/highway-build/reduction_test[1]_tests.cmake")
+  include("/Users/account/Desktop/Code/ai/gemmacpp/gemma.cpp/_deps/highway-build/reduction_test[1]_tests.cmake")
+else()
+  add_test(reduction_test_NOT_BUILT reduction_test_NOT_BUILT)
+endif()

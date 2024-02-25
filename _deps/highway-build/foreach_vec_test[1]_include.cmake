@@ -1,0 +1,5 @@
+if(EXISTS "/Users/account/Desktop/Code/ai/gemmacpp/gemma.cpp/_deps/highway-build/foreach_vec_test[1]_tests.cmake")
+  include("/Users/account/Desktop/Code/ai/gemmacpp/gemma.cpp/_deps/highway-build/foreach_vec_test[1]_tests.cmake")
+else()
+  add_test(foreach_vec_test_NOT_BUILT foreach_vec_test_NOT_BUILT)
+endif()

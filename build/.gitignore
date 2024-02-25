@@ -1,0 +1,78 @@
+*
+!.gitignore
+!.hgignore
+
+# cpp project
+# ignore all files and folders in the build directory
+# except for the "include" directory
+**/build/*
+!include/*
+
+#ignore all spm files 
+*.spm
+
+#ignore all sbs files
+*.sbs
+
+# ignore all .o files
+*.o
+
+# ignore all .pyc files
+!*.pyc
+
+# ignore all .py files
+*.py
+
+# ignore all .txt files
+!*.txt
+
+# ignore all .csv files
+!*.csv
+
+# ignore all .jpg files
+!*.jpg
+
+# ignore all .png files
+!*.png
+
+# ignore all .gif files
+!*.gif
+
+# ignore all .bmp files
+!*.bmp
+
+# ignore all .ico files
+!*.ico
+
+# ignore all .exe files
+!*.exe
+
+# ignore all compiled object files
+!*.o
+
+# ignore all compiled library files
+!*.lib
+
+# ignore all compiled shared library files
+!*.dll
+
+# ignore all temporary files
+*.tmp*
+
+# ignore all build logs
+!build/*
+
+# ignore all .git files
+!*.git*
+
+# ignore all .idea files
+!*.idea*
+
+# ignore all .Spotlight files
+!*.Spotlight*
+
+# ignore all .DS_Store files
+!*.DS_Store*
+
+# ignore all .Trash files
+!*.Trash*

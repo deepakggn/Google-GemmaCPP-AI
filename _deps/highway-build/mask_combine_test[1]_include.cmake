@@ -1,0 +1,5 @@
+if(EXISTS "/Users/account/Desktop/Code/ai/gemmacpp/gemma.cpp/_deps/highway-build/mask_combine_test[1]_tests.cmake")
+  include("/Users/account/Desktop/Code/ai/gemmacpp/gemma.cpp/_deps/highway-build/mask_combine_test[1]_tests.cmake")
+else()
+  add_test(mask_combine_test_NOT_BUILT mask_combine_test_NOT_BUILT)
+endif()
